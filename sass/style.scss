@@ -336,6 +336,7 @@ h2 {
 .portfolio {
     @extend .row;
     width: 100%;
+
     flex-wrap: wrap;
 
     &__item-inside {
@@ -358,17 +359,18 @@ h2 {
         justify-content: center;
         text-decoration: none;
         width: 33.33%;
-        height: 26rem;
+        height: 40vmin;
+        background-size:100% 100%;
         flex-wrap: wrap;
-        background-size: 100% 100%;
+
         background-repeat: no-repeat;
 
         @media(max-width:1000px) {
             width: 50%;
-            height: 26rem;
+
         }
         @media(max-width:570px) {
-            height: 20rem;
+
             width: 100%;
         }
     }

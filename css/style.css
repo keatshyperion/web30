@@ -302,17 +302,15 @@ h2 {
     justify-content: center;
     text-decoration: none;
     width: 33.33%;
-    height: 26rem;
-    flex-wrap: wrap;
+    height: 40vmin;
     background-size: 100% 100%;
+    flex-wrap: wrap;
     background-repeat: no-repeat; }
     @media (max-width: 1000px) {
       .portfolio--size {
-        width: 50%;
-        height: 26rem; } }
+        width: 50%; } }
     @media (max-width: 570px) {
       .portfolio--size {
-        height: 20rem;
         width: 100%; } }
   .portfolio_item1 {
     background-image: url("images/PORTFOLIO/1.jpg"); }
